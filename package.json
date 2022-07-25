@@ -1,4 +1,5 @@
 {
+  "homepage": "http://prernamishra-7.github.io/Ecommerce",
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +15,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase": "^4.8.0",
-    "gh-pages": "^4.0.0",
-    "homepage":"http://prernamishra-7.github.io/Ecommerce",
-
     "react": "^17.0.2",
     "react-currency-format": "^1.0.0",
     "react-dom": "^17.0.2",
@@ -30,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
